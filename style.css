@@ -1,0 +1,128 @@
+/*body{
+    background-color: grey;
+}
+
+#toggleButton{
+/*    background-color: black;
+    color: blanchedalmond;*//*
+    background-color: black;
+    color: blanchedalmond;
+    
+    width: fit-content;
+    height: max-content;
+    margin-left: 645px;
+    margin-top: 50px;
+    border-color: darkblue;
+    border-right-color:darkgreen;
+    border-top-color: darkorange;
+}*//*
+#toggleButton:hover{
+    color: black;
+    background-color: white;
+    /*color: black;
+    background-color: blanchedalmond;*/
+  /*  cursor:pointer; 
+}*/
+
+#clock-container{
+    position: relative;
+    margin: 50px auto auto auto;
+    height: 300px;
+   
+    width: 300px;
+    background: url(clock.png) no-repeat;
+  
+    background-size: 100%;
+    border: 2px solid wheat;
+    padding:10px;
+    border-radius: 50%;
+}/*
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}*/
+#clock-container{
+    position: relative;
+    margin: 50px auto auto auto;
+    height: 300px;
+   
+    width: 300px;
+    background: url(clock.png) no-repeat;
+  
+    background-size: 100%;
+    border: 2px solid wheat;
+    padding:10px;
+    border-radius: 50%;
+}/*
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}*/
+body{
+    background-color: grey;
+}
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+    border-color: white;
+  }
+
+#second {
+    width: 1%;
+    height: 44%;
+    top: 8%;
+    left: 49.25%;
+    opacity: 0.8;
+    position: absolute;
+    background: red;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+/*
+digital clock
+*/
+#clock {
+    font-size: 20px;
+   
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+    text-align: center;
+    
+    border-radius: 20px;
+  }
+
+
+  #print{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 25px;
+    
+  }
+
+
+  #toggleButton{
+      width:max-content;
+      height:max-content;
+      margin-left: 645px;
+      margin-top: 50px;
+      border-color: darkblue;
+      border-right-color:darkgreen;
+      border-top-color: darkorange;     
+    }
+    #toggleButton:hover{
+        color: black;
+        background-color: white;
+        /*color: black;
+        background-color: blanchedalmond;*/
+        cursor:pointer; 
+    }
